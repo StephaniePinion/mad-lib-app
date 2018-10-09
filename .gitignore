@@ -1,8 +1,11 @@
-/node-modules
+# nodejs
+node-modules/
+npm-debug.log*
+yarn-error.log
 
-
-
-
+#project
+dist/
+env.js
 
 # misc
 .DS_Store
@@ -10,5 +13,4 @@
 .env.development.local
 .env.test.local
 .env.production.local
-
-npm-debug.log*
+.vscode/
